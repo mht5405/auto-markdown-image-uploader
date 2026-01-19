@@ -28,6 +28,6 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR"
 
 echo "正在处理文件: $FILE_PATH"
-"/Users/liuhuahui/Nutstore Files/md_ducument/01.日志/01.bloggers/00.自动化图床/.venv/bin/python" photo_transform.py "$FILE_PATH"
+"$SCRIPT_DIR/.venv/bin/python" photo_transform.py "$FILE_PATH"
 
 echo "处理完成！"
