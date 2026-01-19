@@ -57,7 +57,6 @@
 ./run.sh "/Users/username/Documents/article.md"
 ```
 
-在 mac 中，也可以在`./run.sh`后面将文件拖到终端中，终端中自动输入文件地址。
 
 脚本会：
 - 处理指定的 Markdown 文件
